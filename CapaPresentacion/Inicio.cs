@@ -153,5 +153,10 @@ namespace CapaPresentacion
                 this.Close();
             }
         }
+
+        private void lblusuario_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

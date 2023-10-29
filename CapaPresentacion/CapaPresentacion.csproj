@@ -374,6 +374,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\rumac.png" />
+    <Content Include="Resources\RUMAC_logo.ico" />
+    <None Include="Resources\RUMAC_logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

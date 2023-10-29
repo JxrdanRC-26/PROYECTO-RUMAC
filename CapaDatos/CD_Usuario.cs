@@ -22,6 +22,7 @@ namespace CapaDatos
                 {
 
                     StringBuilder query = new StringBuilder();
+                    /*query.AppendLine("Use DBVENTASDEMO");*/
                     query.AppendLine("select u.IdUsuario,u.Documento,u.NombreCompleto,u.Correo,u.Clave,u.Estado,r.IdRol,r.Descripcion from usuario u");
                     query.AppendLine("inner join rol r on r.IdRol = u.IdRol");
 

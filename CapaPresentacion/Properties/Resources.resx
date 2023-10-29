@@ -121,11 +121,14 @@
   <data name="PlantillaVenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlantillaVenta.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="PlantillaProducto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PlantillaProducto.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LogoCanal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rumac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PlantillaCompra" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlantillaCompra.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PlantillaProducto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlantillaProducto.xlsx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="delete25" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,7 +139,7 @@
   <data name="delete32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\delete32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LogoCanal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rumac.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RUMAC_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RUMAC_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
