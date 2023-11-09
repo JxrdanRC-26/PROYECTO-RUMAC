@@ -26,8 +26,8 @@ namespace QuerySQL.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-LRPDF1E\\SQLEXPRESS;Initial Catalog=DBSISTEMA_VENTA;Integrated" +
-            " Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-LRPDF1E\\SQLEXPRESS;Initial Catalog=DBVENTASDEMO;Integrated Se" +
+            "curity=True")]
         public string DBSISTEMA_VENTAConnectionString {
             get {
                 return ((string)(this["DBSISTEMA_VENTAConnectionString"]));

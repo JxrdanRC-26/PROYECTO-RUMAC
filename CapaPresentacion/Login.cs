@@ -65,5 +65,8 @@ namespace CapaPresentacion
         {
 
         }
+        //frmConexion form = new frmConexion();
+        //form.Show();
+        
     }
 }

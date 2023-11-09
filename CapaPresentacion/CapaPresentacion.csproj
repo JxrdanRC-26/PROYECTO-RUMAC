@@ -36,8 +36,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>RUMAC_LOGO.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Azure.Core, Version=1.25.0.0, Culture=neutral, PublicKeyToken=92742159e12e44c8, processorArchitecture=MSIL">
@@ -477,6 +476,7 @@
   <ItemGroup>
     <Content Include="Resources\rumac.png" />
     <Content Include="Resources\RUMAC_logo.ico" />
+    <Content Include="RUMAC_LOGO.ico" />
     <None Include="Resources\RUMAC_logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

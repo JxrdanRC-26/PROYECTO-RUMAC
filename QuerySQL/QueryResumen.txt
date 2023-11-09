@@ -1,4 +1,6 @@
-﻿
+﻿CREATE DBVENTASDEMO
+
+GO
 
 USE DBVENTASDEMO
 
@@ -143,7 +145,7 @@ create table NEGOCIO(
 IdNegocio int primary key,
 Nombre varchar(60),
 RUC varchar(60),
-Direccion varchar(60),
+Direccion varchar(100),
 Logo varbinary(max) NULL
 )
 
@@ -807,4 +809,4 @@ GO
   GO
 
   insert into NEGOCIO(IdNegocio,Nombre,RUC,Direccion,Logo) values
-  (1,'Codigo Estudiante','20202020','av. codigo estudiante 123',null)
+  (1,'RUMAC','','Anastacio Bustamante 510, Centro, 66400 San Nicolás de los Garza, N.L.',null)

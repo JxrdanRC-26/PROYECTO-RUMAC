@@ -1,9 +1,17 @@
-Ôªø
+
+
+USE DBVENTASDEMO
+
+GO
+
+
 create table ROL(
 IdRol int primary key identity,
 Descripcion varchar(50),
 FechaRegistro datetime default getdate()
 )
+
+go
 
 create table PERMISO(
 IdPermiso int primary key identity,
@@ -173,7 +181,7 @@ begin
 		
 	end
 	else
-		set @Mensaje = 'No se puede repetir el documento para m√°s de un usuario'
+		set @Mensaje = 'No se puede repetir el documento para m·s de un usuario'
 
 
 end
@@ -212,7 +220,7 @@ begin
 		
 	end
 	else
-		set @Mensaje = 'No se puede repetir el documento para m√°s de un usuario'
+		set @Mensaje = 'No se puede repetir el documento para m·s de un usuario'
 
 
 end

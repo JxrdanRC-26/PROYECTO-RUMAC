@@ -35,7 +35,10 @@ namespace CapaPresentacion
             foreach (Categoria item in listacategoria)
             {
                 cbocategoria.Items.Add(new OpcionCombo() { Valor = item.IdCategoria, Texto = item.Descripcion });
+                cbocategoria.Items.Add(new OpcionCombo() {Texto = item.Descripcion });
             }
+          
+
             cbocategoria.DisplayMember = "Texto";
             cbocategoria.ValueMember = "Valor";
             cbocategoria.SelectedIndex = 0;
@@ -345,6 +348,11 @@ namespace CapaPresentacion
                 }
 
             }
+        }
+
+        private void cbocategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

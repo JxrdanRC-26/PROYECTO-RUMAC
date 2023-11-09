@@ -85,5 +85,10 @@ namespace CapaPresentacion
                 MessageBox.Show("No se pudo guardar los cambios", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
 
         }
+
+        private void txtnombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
